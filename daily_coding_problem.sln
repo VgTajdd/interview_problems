@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_11_2019", "07_11_2019\07
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_11_2019", "08_11_2019\08_11_2019.vcxproj", "{1736EFB8-4223-4299-A1B5-6F46A32EEDEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_11_2019", "09_11_2019\09_11_2019.vcxproj", "{5B90AD50-058C-4B5D-96D6-E5764D8760D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,16 @@ Global
 		{1736EFB8-4223-4299-A1B5-6F46A32EEDEC}.Release|x64.Build.0 = Release|x64
 		{1736EFB8-4223-4299-A1B5-6F46A32EEDEC}.Release|x86.ActiveCfg = Release|Win32
 		{1736EFB8-4223-4299-A1B5-6F46A32EEDEC}.Release|x86.Build.0 = Release|Win32
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Debug|x64.ActiveCfg = Debug|x64
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Debug|x64.Build.0 = Debug|x64
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Debug|x86.Build.0 = Debug|Win32
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Release|x64.ActiveCfg = Release|x64
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Release|x64.Build.0 = Release|x64
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Release|x86.ActiveCfg = Release|Win32
+		{5B90AD50-058C-4B5D-96D6-E5764D8760D0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
