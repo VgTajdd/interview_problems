@@ -14,16 +14,16 @@ You can modify the input array in-place.
 
 int findPositiveIntegerMissing( std::vector< int >& v )
 {
-	int ans = 0, index = 0;
+	int max = 0, index = 0;
 	while ( index < v.size() )
 	{
 		if ( index != 0 )
 		{
 			std::swap( v[index], v[0] );
 		}
-		if ( ans < v[0] )
+		if ( max < v[0] )
 		{
-			ans = v[0];
+			max = v[0];
 		}
 		if ( ( v[0] > 0 ) && ( std::find( v.begin() + 1, v.end(), v[0] - 1 ) == v.end() ) )
 		{
@@ -31,7 +31,7 @@ int findPositiveIntegerMissing( std::vector< int >& v )
 		}
 		index++;
 	}
-	return ans + 1;
+	return max + 1;
 }
 
 int main()
