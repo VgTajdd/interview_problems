@@ -1,4 +1,4 @@
-# DAILY CODING PROBLEM
+# INTERVIEW PROBLEMS SOLVED
 Collection of interview problems solved.
 
 I recommend you try to solve them by yourself firt.
